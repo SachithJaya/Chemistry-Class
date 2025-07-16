@@ -99,3 +99,28 @@
   </footer>
 </body>
 </html>
+<section id="contact" className="bg-gray-100 py-10 px-4">
+  <h2 className="text-2xl font-bold mb-4 text-center">Contact Us</h2>
+  <div className="text-center text-gray-800">
+    <p className="mb-2">📞 Call or WhatsApp: <a href="tel:+94771063321" className="text-blue-600 font-semibold">0771063321</a></p>
+    <p>📧 Email: <a href="mailto:chemwarriors@gmail.com" className="text-blue-600">chemwarriors@gmail.com</a></p>
+  </div>
+</section>
+{/* Floating Menu - Add this just before closing </div> or at the bottom of JSX return */}
+<div className="fixed bottom-0 left-0 right-0 bg-white border-t shadow-md flex justify-around py-2 text-sm sm:hidden z-50">
+  <a href="#home" className="text-blue-600 font-medium">Home</a>
+  <a href="#schedule" className="text-blue-600 font-medium">Schedule</a>
+  <a href="#join" className="text-blue-600 font-medium">Join</a>
+  <a href="#contact" className="text-blue-600 font-medium">Contact</a>
+</div>
+return (
+  <main>
+    {/* Existing sections like video, schedule, etc. */}
+
+    {/* Paste Contact Section here */}
+    <section id="contact">...</section>
+
+    {/* Paste Floating Menu just before closing tag */}
+    <div className="fixed bottom-0 ...">...</div>
+  </main>
+);
